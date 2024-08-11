@@ -1,0 +1,188 @@
+.Header{
+  height: 4rem;
+  background-color: black;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.First_Header{
+  display: flex;
+  color: white;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.First_Header a{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.First_Header a:hover{
+  color: orange;
+}
+
+.First_Header > div{
+  margin: 0 12px;
+}
+
+.Main_Area{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.First_Container{
+  width: 80%;
+  height: 15rem;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  color: rgb(38,114, 230);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1rem;
+  margin-left: 3rem;
+}
+
+.Detail_title{
+  margin-left: 4rem;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+}
+
+.Button{
+  background-color:rgb(38,114, 230) ;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 100px;
+  margin-left: 4rem;
+}
+
+.profile_flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_flex > div{
+  margin: 0 42px;
+}
+
+.Personal_profile{
+  width: 18%;
+}
+
+.dp{
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+}
+
+.Text{
+  text-align: center;
+}
+
+/*About*/
+
+.profile{
+  width: 100%;
+}
+
+.profile > div{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 50%;
+}
+
+.Dp{
+  width: 10%;
+}
+
+.Dp > img{
+  width: 220px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.Title_profile{
+  width: 60%;
+  color: #350ee2;
+  font-size: 20px;
+}
+
+.Title_profile_Detail{
+  font-size: 17px;
+}
+
+.Links{
+  background-color: #203040;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem; 
+}
+
+/*News*/
+
+.Title{
+  color:blue;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Detail{
+  display: flex;
+  justify-content: center;
+}
+
+.Detail > div {
+  margin: 0 12px;
+}
+
+.Detail_Text{
+  width: 40%;
+}
+
+.Image{
+  width: 20%;
+}
+
+/*NEW*/
+
+.profile_heading{
+  color:blue;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile_new{
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  background-color: lightgrey;
+}
